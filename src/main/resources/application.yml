@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cloud-example-camden
+
+server:
+  port: 8081
+
+feign-example:
+  ribbon:
+    listOfServers: localhost:8080
